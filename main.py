@@ -1,102 +1,126 @@
 import os
 import sys
 import json
-import asyncio
 from datetime import datetime
-from dateutil import parser
-from icalendar import Calendar, Event, vText
 from playwright.async_api import async_playwright
 import nest_asyncio
 
 nest_asyncio.apply()
 
-def load_json_data(data):
-    events = []
-    if isinstance(data, list):
-        for item in data:
-            events.extend(load_json_data(item))
-    elif isinstance(data, dict):
-        if 'startDate' in data or 'start' in data:
-            events.append(data)
-        for key, value in data.items():
-            if isinstance(value, (list, dict)):
-                events.extend(load_json_data(value))
-    return events
-
-def extract_label(val):
-    if isinstance(val, dict):
-        caption = val.get('caption')
-        if isinstance(caption, dict):
-            return caption.get('fr') or next(iter(caption.values()), '')
-        return val.get('name') or val.get('label') or val.get('code') or ''
-    return str(val) if val is not None else ''
-
-def parse_resources(resources_list):
-    teachers, rooms = [], []
-    if not isinstance(resources_list, list): return teachers, rooms
-    for res in resources_list:
-        if not isinstance(res, dict): continue
-        category = res.get('category', '')
-        name = extract_label(res.get('resource')) or res.get('code', '')
-        if category in ['INSTRUCTOR', 'TEACHER'] and name: teachers.append(name)
-        elif category in ['ROOM', 'LOCATION'] and name: rooms.append(name)
-    return teachers, rooms
-
 def convert_json_to_ics(json_data, output_ics_path="emploi_du_temps.ics"):
-    events_data = load_json_data(json_data)
-    seen = set()
-    unique_events = []
-    for item in events_data:
-        if not isinstance(item, dict): continue
-        start_str = item.get('startDate') or item.get('start')
-        summary = extract_label(item.get('course')) or item.get('summary') or "Cours"
-        identifier = (start_str, summary)
-        if identifier not in seen:
-            seen.add(identifier)
-            unique_events.append(item)
+    interventions = json_data.get("interventions", [])
+    if not interventions:
+        print("❌ Aucune intervention trouvée dans le JSON.")
+        return False
 
-    if not unique_events: return False
-
-    cal = Calendar()
-    cal.add('prodid', '-//ESME Schedule Scraper//my.esme.fr//FR')
-    cal.add('version', '2.0')
+    ics_lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//ESME Planning Exporter//FR",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH"
+    ]
 
     count = 0
-    for item in unique_events:
-        summary = extract_label(item.get('course')) or extract_label(item.get('field')) or extract_label(item.get('activityType')) or item.get('summary') or "Cours"
-        start_str = item.get('startDate') or item.get('start')
-        end_str = item.get('endDate') or item.get('end')
+    for intervention in interventions:
+        event_id = intervention.get('id', 'unknown')
+        uid = f"esme-{event_id}@esme.fr"
         
-        if not start_str or not end_str: continue
-
-        try:
-            dt_start, dt_end = parser.parse(start_str), parser.parse(end_str)
-        except Exception: continue
-
-        teachers, rooms = parse_resources(item.get('interventionResources', []))
-        location = ", ".join(rooms) if rooms else item.get('location', '')
-        teacher_str = ", ".join(teachers) if teachers else item.get('teacher', '')
+        start_str = intervention.get("startDateTime")
+        end_str = intervention.get("endDateTime")
         
-        description = item.get('description') or item.get('memo') or ""
-        if teacher_str: description = f"Enseignant : {teacher_str}\n" + description
-
-        event = Event()
-        event.add('summary', summary)
-        event.add('dtstart', dt_start)
-        event.add('dtend', dt_end)
-        if location: event.add('location', vText(location))
-        if description: event.add('description', description)
-        event.add('dtstamp', datetime.now())
+        if not start_str or not end_str:
+            continue
+            
+        # Conversion du format ISO (ex: 2026-09-14T06:30:00Z) vers le format ICS (YYYYMMDDTHHMMSSZ)
+        dtstart = start_str.replace("-", "").replace(":", "")
+        dtend = end_str.replace("-", "").replace(":", "")
         
-        cal.add_component(event)
+        # Extraction du domaine / matière
+        field_name = ""
+        if "field" in intervention and isinstance(intervention["field"], dict):
+            field_caption = intervention["field"].get("caption")
+            if isinstance(field_caption, dict):
+                field_name = field_caption.get("fr", "")
+            
+        # Extraction du type d'activité (CM, TD, etc.)
+        activity_name = ""
+        if "activityType" in intervention and isinstance(intervention["activityType"], dict):
+            act_caption = intervention["activityType"].get("caption")
+            if isinstance(act_caption, dict):
+                activity_name = act_caption.get("fr", "")
+            
+        # Extraction du nom du cours (unité pédagogique)
+        course_name = ""
+        ped_units = intervention.get("interventionPedagogicalUnits", [])
+        if ped_units and isinstance(ped_units[0], dict) and "pedagogicalUnit" in ped_units[0]:
+            pu_caption = ped_units[0]["pedagogicalUnit"].get("caption", {})
+            if isinstance(pu_caption, dict):
+                course_name = pu_caption.get("fr", "")
+            
+        # Construction du résumé (titre de l'événement)
+        summary = course_name if course_name else (field_name if field_name else "Cours ESME")
+        if activity_name:
+            summary = f"{summary} ({activity_name})"
+            
+        # Extraction des intervenants
+        instructors = []
+        for inst in intervention.get("interventionInstructors", []):
+            if isinstance(inst, dict):
+                person = inst.get("person", {})
+                fname = person.get("currentFirstName", "")
+                lname = person.get("currentLastName", "")
+                if fname or lname:
+                    instructors.append(f"{fname} {lname}".strip())
+        instructor_str = ", ".join(instructors)
+        
+        # Extraction des salles de cours
+        rooms = []
+        for res in intervention.get("interventionResources", []):
+            if isinstance(res, dict):
+                r = res.get("resource", {})
+                if r.get("isRoom"):
+                    cap_dict = r.get("caption", {})
+                    cap = cap_dict.get("fr") if isinstance(cap_dict, dict) else None
+                    if not cap:
+                        cap = r.get("code", "")
+                    if cap:
+                        rooms.append(cap)
+        location = ", ".join(rooms)
+        
+        # Construction de la description
+        desc_parts = []
+        if field_name:
+            desc_parts.append(f"Matière : {field_name}")
+        if instructor_str:
+            desc_parts.append(f"Intervenant(e) : {instructor_str}")
+        if activity_name:
+            desc_parts.append(f"Type : {activity_name}")
+        description = "\\n".join(desc_parts)
+        
+        # Ajout des lignes de l'événement au calendrier
+        ics_lines.extend([
+            "BEGIN:VEVENT",
+            f"UID:{uid}",
+            f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
+            f"DTSTART:{dtstart}",
+            f"DTEND:{dtend}",
+            f"SUMMARY:{summary}",
+            f"LOCATION:{location}" if location else "",
+            f"DESCRIPTION:{description}" if description else "",
+            "END:VEVENT"
+        ])
         count += 1
 
-    if count > 0:
-        with open(output_ics_path, 'wb') as f:
-            f.write(cal.to_ical())
-        print(f"✅ Succès ! {count} cours exportés dans '{output_ics_path}'.")
-        return True
-    return False
+    ics_lines.append("END:VCALENDAR")
+
+    # Écriture du fichier ICS final
+    ics_content = "\r\n".join([line for line in ics_lines if line])
+    with open(output_ics_path, "wb") as f:
+        f.write(ics_content.encode("utf-8"))
+        
+    print(f"✅ Export réussi : {count} événements exportés vers '{output_ics_path}'")
+    return count > 0
 
 async def main():
     email = os.environ.get("ESME_USER")
@@ -112,11 +136,16 @@ async def main():
         page = await context.new_page()
 
         print("1. Connexion au portail Keycloak...")
-        await page.goto("https://my.esme.fr/", wait_until="networkidle")
-        await page.fill('#username', email)
-        await page.fill('#password', password)
-        await page.click('#kc-login')
-        await page.wait_for_load_state("networkidle")
+        try:
+            await page.goto("https://my.esme.fr/", wait_until="networkidle")
+            await page.fill('#username', email)
+            await page.fill('#password', password)
+            await page.click('#kc-login')
+            await page.wait_for_load_state("networkidle")
+        except Exception as e:
+            print(f"❌ Échec de la connexion : {e}")
+            await browser.close()
+            sys.exit(1)
         
         print("2. Capture de la requête officielle...")
         async with page.expect_request(lambda req: "/api/plannings/me" in req.url) as req_info:
