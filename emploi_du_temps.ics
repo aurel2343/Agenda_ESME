@@ -1,1104 +1,1599 @@
 BEGIN:VCALENDAR
+PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 2.2//EN
 VERSION:2.0
-PRODID:-//ESME Planning Exporter//FR
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
 BEGIN:VEVENT
-UID:esme-43600@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260914T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20260914T080000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260914T063000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:27dec3dd-80d9-54ee-9146-ff42996671d8
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89596@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261023T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261023T150000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261023T133000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:2961b816-7f4f-5366-9739-0964cfa717ce
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-80287@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261102T143000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Eva MEVREL\n\nGroupes : \n - SpéG_FR
 DTEND:20261102T160000Z
-SUMMARY:Enjeux Environnementaux 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261102T143000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Eva MEVREL\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Enjeux Environnementaux 1
+TRANSP:Opaque
+UID:1f303dcb-e829-5940-ab52-d89562d82569
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-44461@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260909T120000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F1.1\n\nFormateurs : \n - Nabih JAAFAR\n\nGroupes : \n - SpéG_FR
 DTEND:20260909T133000Z
-SUMMARY:Systèmes techniques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260909T120000Z
 LOCATION:F1.1
-DESCRIPTION:Matière : Systèmes techniques pour l’ingénieur\nIntervenant(e) : Nabih JAAFAR\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Systèmes techniques 3
+TRANSP:Opaque
+UID:805c86cd-4d98-57da-bd08-bac43bd59f29
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92671@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260929T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20260929T093000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260929T080000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:254edfff-bc47-5b1e-a9ef-c41f237a6602
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99789@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261124T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Zinedine GAID\n\nGroupes : \n - SpéG_FR
 DTEND:20261124T090000Z
-SUMMARY:Gestion de projet : les objectifs SMART (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261124T073000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Zinedine GAID\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de projet : les objectifs SMART
+TRANSP:Opaque
+UID:26cf553a-e49b-5e77-bcca-657a12ea1edb
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92383@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260921T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20260921T080000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260921T063000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:0a6f515c-496d-5fec-a22d-273093f347f5
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-42679@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260908T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20260908T110000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260908T093000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:5fb80da6-7833-5fdb-9de2-97368c1ed9a2
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92675@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261117T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261117T103000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261117T090000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:7ab8c17e-8dfa-52aa-9510-3ce293ea98a2
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92378@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261130T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261130T120000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261130T103000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:c9d7d0af-5fbd-51a7-b218-d63ad27e98a1
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98913@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260916T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20260916T110000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260916T093000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:1fe18074-d293-51c4-96f2-53adeb608412
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89244@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261125T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261125T090000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261125T073000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:6842d2ff-a700-5f77-91e7-934e5de1024e
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92533@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261210T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261210T103000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20261210T090000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:b7fe61da-136c-5ddc-91c3-e351856c2ada
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92682@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261006T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261006T110000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261006T093000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:21f5d92f-3f40-5d60-b15d-111ef372bbad
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92376@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261116T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261116T120000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261116T103000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:0e6aaf73-8bb9-5d9c-a447-05ec40b19087
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99791@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261006T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Zinedine GAID\n\nGroupes : \n - SpéG_FR
 DTEND:20261006T080000Z
-SUMMARY:Gestion de projet : les objectifs SMART (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261006T063000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Zinedine GAID\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de projet : les objectifs SMART
+TRANSP:Opaque
+UID:d0b38250-81de-5298-8988-b5076e388fc1
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92367@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261130T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261130T103000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261130T090000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:3f9175e9-3ecb-51c9-a19f-786d92edb3ac
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99548@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261120T130000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Jérôme VAUSELLE\n\nGroupes : \n - SpéG1_FR
 DTEND:20261120T143000Z
-SUMMARY:Développement personnel (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261120T130000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Jérôme VAUSELLE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG1_FR - Développement personnel
+TRANSP:Opaque
+UID:304745c0-8f81-5317-91f5-57661c091c79
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89597@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261113T143000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261113T160000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261113T143000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:bc277de0-eabb-5037-941f-7f2f5195bc92
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92389@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261123T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261123T090000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261123T073000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:641816f7-80bf-5c1e-bee2-e73b2de71596
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89503@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261204T130000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Jérôme VAUSELLE\n\nGroupes : \n - SpéG1_FR
 DTEND:20261204T143000Z
-SUMMARY:Développement personnel (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261204T130000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Jérôme VAUSELLE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG1_FR - Développement personnel
+TRANSP:Opaque
+UID:82ae2fdb-6a18-5a51-a68b-150bde52bb4b
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92365@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261116T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261116T103000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261116T090000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:0975ddcb-d6b3-5a55-9321-21548d81a7ef
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92373@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261005T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261005T110000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261005T093000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:4e574d83-dc82-56cf-a8e8-058b66427717
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99546@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261023T120000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Jérôme VAUSELLE\n\nGroupes : \n - SpéG1_FR
 DTEND:20261023T133000Z
-SUMMARY:Développement personnel (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261023T120000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Jérôme VAUSELLE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG1_FR - Développement personnel
+TRANSP:Opaque
+UID:94a10c60-213f-5427-ab23-c209fb63bba9
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92360@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260921T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20260921T093000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260921T080000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:023a23e1-4064-55db-a830-8dfe7bc08d5f
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92375@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261019T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261019T110000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261019T093000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:31d19d7e-21f8-5a36-95b4-6f8fe0842517
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-44676@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260909T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F1.1\n\nFormateurs : \n - Nabih JAAFAR\n\nGroupes : \n - SpéG_FR
 DTEND:20260909T150000Z
-SUMMARY:Systèmes techniques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260909T133000Z
 LOCATION:F1.1
-DESCRIPTION:Matière : Systèmes techniques pour l’ingénieur\nIntervenant(e) : Nabih JAAFAR\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Systèmes techniques 3
+TRANSP:Opaque
+UID:e3c6f0f2-8de4-54e3-a635-de3e1e6c856c
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92687@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261201T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261201T120000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261201T103000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:8aeb0b1c-47d1-5e6c-9d82-83f15f24adf6
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98922@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261202T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20261202T120000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261202T103000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:a4fa782b-d771-5476-9c6f-2f74aaa2243c
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89602@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261218T143000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261218T160000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261218T143000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:813b2a1a-fd49-5fcd-9d23-b6d49148d5cc
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92379@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261207T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261207T120000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261207T103000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:8e30e21e-bcf8-5dd2-89de-cb58e8bcfa10
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-75280@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261116T143000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Eva MEVREL\n\nGroupes : \n - SpéG_FR
 DTEND:20261116T160000Z
-SUMMARY:Enjeux Environnementaux 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261116T143000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Eva MEVREL\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Enjeux Environnementaux 1
+TRANSP:Opaque
+UID:b95fceab-d143-5458-bc61-8f34db5fa845
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89247@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261216T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261216T090000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261216T073000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:53f209c9-e19c-5381-974f-3d841dde54f7
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89594@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261009T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261009T150000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261009T133000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:8be37049-15c9-5648-b8fb-e50e9a6bc8c3
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-46610@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260914T120000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F1.1\n\nFormateurs : \n - Arezki HAMITOUCHE\n\nGroupes : \n - SpéG_FR
 DTEND:20260914T133000Z
-SUMMARY:Electronique analogique 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260914T120000Z
 LOCATION:F1.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Arezki HAMITOUCHE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Electronique analogique 1
+TRANSP:Opaque
+UID:cdd6e593-1991-5de7-96ae-f0ecd9efff39
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89239@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260923T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20260923T080000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260923T063000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:22354840-243e-5055-a3a2-1949f888c4b8
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89593@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260925T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20260925T150000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260925T133000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:593b6132-4ca6-52b2-9683-02cd8d400a70
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92669@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260915T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20260915T093000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260915T080000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:cbcfcd0f-2187-5600-a4ec-3bcfdb18adbf
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92361@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260928T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20260928T093000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260928T080000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:edbbf444-4d20-5214-b963-0a2e10d7f09c
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92670@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260922T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20260922T093000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260922T080000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:c8832eef-c99b-51e0-bfdd-25b91a657cd2
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98915@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260930T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F0D\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20260930T110000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260930T093000Z
 LOCATION:F0D
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:009019fa-2dfe-50c9-a863-c395f7619b5c
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89601@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261211T143000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261211T160000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261211T143000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:526047e1-1f8c-53c3-9888-a32d801bb444
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89240@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261007T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261007T080000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261007T063000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:5a8f858d-4961-596c-88c9-9b36baf32b84
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92674@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261020T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261020T093000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261020T080000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:c6551b03-fd32-5e8a-8221-3185f9dc3379
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-47570@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260909T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20260909T110000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260909T093000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:9640ed90-7715-5105-bb77-ad61e77e7c84
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-43057@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261117T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Zinedine GAID\n\nGroupes : \n - SpéG_FR
 DTEND:20261117T090000Z
-SUMMARY:Gestion de projet : les objectifs SMART (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261117T073000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Zinedine GAID\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de projet : les objectifs SMART
+TRANSP:Opaque
+UID:335094b7-4796-5251-a789-8721144e3823
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92362@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261005T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261005T093000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261005T080000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:a4d558b2-d0cf-5df2-a84b-7e7df1ebf21a
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-41595@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260914T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20260914T110000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260914T093000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:f69beb5d-9905-5dc0-9d27-366e2ed7f984
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89600@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261204T143000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261204T160000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261204T143000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:210bd62e-49c8-5ab1-b8f0-0b774d32d2fa
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89238@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260916T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20260916T080000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260916T063000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:165eb03e-551a-5b15-ae62-552467845f2d
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99547@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261113T130000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Jérôme VAUSELLE\n\nGroupes : \n - SpéG1_FR
 DTEND:20261113T143000Z
-SUMMARY:Développement personnel (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261113T130000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Jérôme VAUSELLE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG1_FR - Développement personnel
+TRANSP:Opaque
+UID:56fe0656-f7ee-5fad-a00d-ec0f631cb38b
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92528@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261008T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261008T093000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20261008T080000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:104e66a5-77f6-5529-b847-73beda20dda7
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92527@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260917T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20260917T093000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20260917T080000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:61f9b66f-43a7-5e35-a320-f8bf43dd011d
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92387@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261019T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261019T080000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261019T063000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:bff0656c-9082-5dbb-8048-ad4f8e1ccde7
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-42351@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260908T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20260908T093000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260908T080000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:f3a3f9e8-7772-5d3f-83f7-c45b5485053f
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92686@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261124T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261124T120000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261124T103000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:037f22cb-1d65-5c8c-b6f7-ef7f5a78ddf5
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89598@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261120T143000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261120T160000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261120T143000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:e9137dbd-8192-5e14-bf8b-6ad2b946ef9a
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98919@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261104T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20261104T120000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261104T103000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:f582bb44-a032-5a2a-a2b7-2359c5f98590
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98916@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261007T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20261007T110000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261007T093000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:e54be947-249c-5d44-911f-d13d692b4a84
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89651@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260928T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Eva MEVREL\n\nGroupes : \n - SpéG_FR
 DTEND:20260928T150000Z
-SUMMARY:Enjeux Environnementaux 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260928T133000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Eva MEVREL\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Enjeux Environnementaux 1
+TRANSP:Opaque
+UID:f969fcc9-006e-5e98-ada3-53314f22911a
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-75196@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260914T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Eva MEVREL\n\nGroupes : \n - SpéG_FR
 DTEND:20260914T150000Z
-SUMMARY:Enjeux Environnementaux 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260914T133000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Eva MEVREL\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Enjeux Environnementaux 1
+TRANSP:Opaque
+UID:ef033a4b-7b73-5ea3-beed-b26f34b1e216
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92530@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261022T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261022T093000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20261022T080000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:32f19add-fa45-5148-8dc6-ea866a3c4619
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-43810@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260910T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F0C\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20260910T093000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260910T080000Z
 LOCATION:F0C
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:da13dd7b-ff8a-5dc1-83bd-89d659cce6d6
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92532@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261203T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261203T103000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20261203T090000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:8e05f902-9fe5-5977-8c80-0ddcf5140b98
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99545@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261016T120000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Jérôme VAUSELLE\n\nGroupes : \n - SpéG1_FR
 DTEND:20261016T133000Z
-SUMMARY:Développement personnel (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261016T120000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Jérôme VAUSELLE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG1_FR - Développement personnel
+TRANSP:Opaque
+UID:7e50dd38-910f-56d6-8168-8a43411af90c
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92684@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261020T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261020T110000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261020T093000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:62afee4d-f4b3-5b31-83e7-60c2b40f3b42
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92688@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261208T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261208T120000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261208T103000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:74a0dde5-ca67-57fc-966e-8d3c0d150646
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-44020@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20270107T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20270107T103000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20270107T090000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:08fbae3c-dd54-56e8-b67e-9855a13bbc56
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-41343@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260914T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20260914T093000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260914T080000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:8ca28b42-ebf0-51f8-b59e-10cb11328a64
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89650@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260921T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Eva MEVREL\n\nGroupes : \n - SpéG_FR
 DTEND:20260921T150000Z
-SUMMARY:Enjeux Environnementaux 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260921T133000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Eva MEVREL\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Enjeux Environnementaux 1
+TRANSP:Opaque
+UID:253b8604-3676-5fab-95e1-cc960850ec26
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92388@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261116T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261116T090000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261116T073000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:0480904a-bcfb-5e4c-919f-2d3e1296a439
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92364@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261019T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261019T093000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261019T080000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:f5a1cd54-7b23-5acd-832c-9df2925a1088
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98921@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261125T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20261125T120000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261125T103000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:fcb09ff7-788a-5485-bba8-8d2b99f49616
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92390@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261130T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261130T090000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261130T073000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:105baee5-b404-5231-a5bd-6de746b79377
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98920@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261118T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20261118T120000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261118T103000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:2061c5e2-0970-5b2b-b572-8ddc48c04d88
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99793@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261020T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Zinedine GAID\n\nGroupes : \n - SpéG_FR
 DTEND:20261020T080000Z
-SUMMARY:Gestion de projet : les objectifs SMART (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261020T063000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Zinedine GAID\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de projet : les objectifs SMART
+TRANSP:Opaque
+UID:a901cc9c-923e-5c72-be1c-edb16eb14aff
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-43183@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261103T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Zinedine GAID\n\nGroupes : \n - SpéG_FR
 DTEND:20261103T090000Z
-SUMMARY:Gestion de projet : les objectifs SMART (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261103T073000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Zinedine GAID\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de projet : les objectifs SMART
+TRANSP:Opaque
+UID:bfeed559-2d09-5919-b07e-a6ba928d2668
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92368@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261207T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261207T103000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261207T090000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:87280c5f-27f6-538a-86fb-b94e24d35faf
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89592@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260918T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20260918T150000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260918T133000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:23e9dc4a-a7c0-5208-9765-6ec1d4c915cf
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92676@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261124T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261124T103000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261124T090000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:2d74e59f-259d-5395-a955-f95258266cca
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99549@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261127T130000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Jérôme VAUSELLE\n\nGroupes : \n - SpéG1_FR
 DTEND:20261127T143000Z
-SUMMARY:Développement personnel (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261127T130000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Jérôme VAUSELLE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG1_FR - Développement personnel
+TRANSP:Opaque
+UID:4235fd51-0dbb-50f7-a144-a780a4150dd1
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92673@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261013T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261013T093000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261013T080000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:22e1300b-4285-5956-b2e8-06a40a5c5766
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98918@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261021T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20261021T110000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261021T093000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:8219d58b-d3a3-565a-87c1-7aba74eefbb4
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92677@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261201T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261201T103000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261201T090000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:fcd9b65a-2e5f-5855-91b6-a669b0d20798
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89243@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261118T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261118T090000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261118T073000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:dec49aa6-583c-52a1-a51c-11668c9b6820
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92672@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261006T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261006T093000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261006T080000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:510cd68e-04b0-5a81-8d47-4b2535fd3187
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89652@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261005T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Eva MEVREL\n\nGroupes : \n - SpéG_FR
 DTEND:20261005T150000Z
-SUMMARY:Enjeux Environnementaux 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261005T133000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Eva MEVREL\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Enjeux Environnementaux 1
+TRANSP:Opaque
+UID:ec3236b3-b844-525d-8ea5-eb6aeb032602
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89246@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261209T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261209T090000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261209T073000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:10498287-7988-529c-b35b-368e28ef4391
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89241@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261014T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261014T080000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261014T063000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:7f77b58c-0326-571a-8e31-8325515697b1
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92679@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260915T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20260915T110000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260915T093000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:c2bd061d-85ca-52ee-870f-0fbd32787ec3
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89242@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261021T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261021T080000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261021T063000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:57a0e7a1-5f14-5330-90ce-6809fbbd5d00
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92385@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261005T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261005T080000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261005T063000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:a49dc72d-a29c-5bd2-941b-a06ef27142a4
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92380@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261214T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261214T120000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261214T103000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:fd85d645-8af3-506c-8bab-72b9685955de
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92534@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261217T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261217T103000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20261217T090000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:03616326-a514-5066-8530-26c84f0031b7
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92680@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260922T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20260922T110000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260922T093000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:d195cf60-3c6e-5786-ab19-15306c2dea40
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99790@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261201T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Zinedine GAID\n\nGroupes : \n - SpéG_FR
 DTEND:20261201T090000Z
-SUMMARY:Gestion de projet : les objectifs SMART (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261201T073000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Zinedine GAID\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de projet : les objectifs SMART
+TRANSP:Opaque
+UID:91e6faee-6bf0-57aa-bfa3-a8b263fb9af4
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89654@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261019T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Eva MEVREL\n\nGroupes : \n - SpéG_FR
 DTEND:20261019T150000Z
-SUMMARY:Enjeux Environnementaux 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261019T133000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Eva MEVREL\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Enjeux Environnementaux 1
+TRANSP:Opaque
+UID:afd52498-b01a-504b-afbd-7f378bd0370d
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92681@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260929T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20260929T110000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260929T093000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:2d2f9bec-e39a-5482-9ea8-1f9dcf337d15
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98917@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261014T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20261014T110000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261014T093000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:72bbc87f-8fd8-59bc-94dc-cd272bb5e9f0
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98923@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261209T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20261209T120000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261209T103000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:9cac13d6-6c82-5caa-9a7d-d4dfffa08104
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92366@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261123T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261123T103000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261123T090000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:317ce2d6-008d-5d6f-b858-d585312de4d6
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-99792@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261013T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Zinedine GAID\n\nGroupes : \n - SpéG_FR
 DTEND:20261013T080000Z
-SUMMARY:Gestion de projet : les objectifs SMART (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261013T063000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Zinedine GAID\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de projet : les objectifs SMART
+TRANSP:Opaque
+UID:ee2d2369-9d23-579e-b6a4-01676e73bc96
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92685@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261117T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261117T120000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261117T103000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:5eaa1a38-2002-5268-bed4-72a2cbcab7b3
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92371@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260928T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20260928T110000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260928T093000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:fde82acd-959d-5383-8c07-e91c6b5c2cbe
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92678@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261208T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261208T103000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261208T090000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:7705ff93-4b00-5962-a578-931b7579ec23
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-98914@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260923T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F8.1\n\nFormateurs : \n - David SCHNEEWELE\n\nGroupes : \n - SpéG_FR
 DTEND:20260923T110000Z
-SUMMARY:Gestion de l'entreprise 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260923T093000Z
 LOCATION:F8.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : David SCHNEEWELE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Gestion de l'entreprise 1
+TRANSP:Opaque
+UID:2b28e0ea-8d53-5210-b776-4cf5eb9e5cc6
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92363@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261012T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261012T093000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261012T080000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:6af14c22-eb60-586a-998d-288bb22768b5
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89653@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261012T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Eva MEVREL\n\nGroupes : \n - SpéG_FR
 DTEND:20261012T150000Z
-SUMMARY:Enjeux Environnementaux 1 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261012T133000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Eva MEVREL\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Enjeux Environnementaux 1
+TRANSP:Opaque
+UID:09cee429-c8c3-5405-a014-1e960ed16b9d
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92386@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261012T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261012T080000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261012T063000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:0478ea22-3d28-57e2-accf-4d58fbe6f126
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-45497@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260911T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20260911T150000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260911T133000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:4a4552c8-922e-5ad0-8d44-b1824b39a5c2
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92384@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260928T063000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20260928T080000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260928T063000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:b0f6b344-357c-5dc1-8068-ff6e9679d0ff
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92374@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261012T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261012T110000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261012T093000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:bc84cd9f-02f6-5bb8-b262-6131e3a61176
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92369@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261214T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261214T103000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - Cours magistral (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261214T090000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - Cours magistral (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:Cours - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:92631edc-9098-5dc2-aa89-0df904c149b3
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92529@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261015T080000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261015T093000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20261015T080000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:5321c7b7-67d6-52cb-b976-bf99963e3abe
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92683@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261013T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.1\n\nFormateurs : \n - Ramez HAMIE\n\nGroupes : \n - SpéG_FR
 DTEND:20261013T110000Z
-SUMMARY:Signaux et systèmes (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261013T093000Z
 LOCATION:F4.1
-DESCRIPTION:Matière : Automatique et Contrôle\nIntervenant(e) : Ramez HAMIE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Signaux et systèmes
+TRANSP:Opaque
+UID:4f75a3a6-293c-5d51-b5a2-88f33c5804e3
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89595@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261016T133000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261016T150000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261016T133000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:67753cc1-f77b-57f1-9ab1-eb620d61f8de
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92370@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20260921T093000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20260921T110000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20260921T093000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:4ee6804a-6cf2-5c4b-8773-efd79ba24e83
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89245@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261202T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F2.1b\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261202T090000Z
-SUMMARY:Introduction à l'analyse numérique (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261202T073000Z
 LOCATION:F2.1b
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Introduction à l'analyse numérique
+TRANSP:Opaque
+UID:b7d6b82c-4979-5a14-83a4-b8dedb89973b
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92377@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261123T103000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F4.2\n\nFormateurs : \n - François HAGBE\n\nGroupes : \n - SpéG_FR
 DTEND:20261123T120000Z
-SUMMARY:Outils mathématiques 3 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261123T103000Z
 LOCATION:F4.2
-DESCRIPTION:Matière : Mathématiques\nIntervenant(e) : François HAGBE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Outils mathématiques 3
+TRANSP:Opaque
+UID:ecd6199d-5d07-594a-80ab-08e59171b464
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-92531@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261126T090000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F6.2a\n - F6.2b\n\nFormateurs : \n - Joan BRAHAMCHA-MARIN\n\nGroupes : \n - SpéG_FR
 DTEND:20261126T103000Z
-SUMMARY:Mécanique des fluides (Cycle 1 - TD / APP / Parcours (fr) - par classe)
-LOCATION:F6.2a, F6.2b
-DESCRIPTION:Matière : Physique\nIntervenant(e) : Joan BRAHAMCHA-MARIN\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+DTSTAMP:20260908T055825Z
+DTSTART:20261126T090000Z
+LOCATION:F6.2a\; 
+F6.2b
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Mécanique des fluides
+TRANSP:Opaque
+UID:60628157-62ff-5e3c-aefc-2550caf8c7e7
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89512@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261009T120000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Jérôme VAUSELLE\n\nGroupes : \n - SpéG1_FR
 DTEND:20261009T133000Z
-SUMMARY:Développement personnel (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261009T120000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Sciences humaines et sociales\nIntervenant(e) : Jérôme VAUSELLE\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG1_FR - Développement personnel
+TRANSP:Opaque
+UID:c044fdbe-644d-5159-ba37-82a7086f5a2f
 END:VEVENT
 BEGIN:VEVENT
-UID:esme-89599@esme.fr
-DTSTAMP:20260907T202534Z
-DTSTART:20261127T143000Z
+CLASS:PUBLIC
+DESCRIPTION:Ressources : \n - F5.1\n\nFormateurs : \n - Samah BOUZIDI\n\nGroupes : \n - SpéG_FR
 DTEND:20261127T160000Z
-SUMMARY:Algorithmique avancée 2 (Cycle 1 - TD / APP / Parcours (fr) - par classe)
+DTSTAMP:20260908T055825Z
+DTSTART:20261127T143000Z
 LOCATION:F5.1
-DESCRIPTION:Matière : Informatique et IA\nIntervenant(e) : Samah BOUZIDI\nType : Cycle 1 - TD / APP / Parcours (fr) - par classe
+SEQUENCE:1
+STATUS:Confirmed
+SUMMARY:TD - SpéG_FR - Algorithmique avancée 2
+TRANSP:Opaque
+UID:da29335f-23de-56dd-8fcb-957476d8ef58
 END:VEVENT
 END:VCALENDAR
