@@ -1,32 +1,28 @@
 import asyncio
+from datetime import datetime
 import json
 import os
+import re
 import sys
-from datetime import datetime
+import uuid
 from playwright.async_api import async_playwright
 import nest_asyncio
 
 nest_asyncio.apply()
 
 
-def convert_json_to_ics(json_data, output_ics_path="emploi_du_temps.ics"):
-  interventions = json_data.get("interventions", [])
-  if not interventions:
-    print("❌ Aucune intervention trouvée dans le JSON.")
-    return False
-
+def convert_json_to_exact_ics(json_data, ics_filepath="emploi_du_temps.ics"):
   ics_lines = [
       "BEGIN:VCALENDAR",
+      "PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 2.2//EN",
       "VERSION:2.0",
-      "PRODID:-//ESME Planning Exporter//FR",
-      "CALSCALE:GREGORIAN",
-      "METHOD:PUBLISH",
   ]
 
-  count = 0
+  interventions = json_data.get("interventions", [])
+
   for intervention in interventions:
     event_id = intervention.get("id", "unknown")
-    uid = f"esme-{event_id}@esme.fr"
+    uid = str(uuid.uuid5(uuid.NAMESPACE_DNS, f"esme-{event_id}"))
 
     start_str = intervention.get("startDateTime")
     end_str = intervention.get("endDateTime")
@@ -34,105 +30,138 @@ def convert_json_to_ics(json_data, output_ics_path="emploi_du_temps.ics"):
     if not start_str or not end_str:
       continue
 
-    # Conversion du format ISO (ex: 2026-09-14T06:30:00Z) vers le format ICS (YYYYMMDDTHHMMSSZ)
     dtstart = start_str.replace("-", "").replace(":", "")
     dtend = end_str.replace("-", "").replace(":", "")
+    dtstamp = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
 
-    # Extraction du domaine / matière
-    field_name = ""
-    if "field" in intervention and isinstance(intervention["field"], dict):
-      field_caption = intervention["field"].get("caption")
-      if isinstance(field_caption, dict):
-        field_name = field_caption.get("fr", "")
+    # Type d'activité
+    activity_caption = ""
+    if "activityType" in intervention and "caption" in intervention[
+        "activityType"
+    ]:
+      activity_caption = intervention["activityType"]["caption"].get("fr", "")
 
-    # Extraction du type d'activité (CM, TD, etc.)
-    activity_name = ""
-    if "activityType" in intervention and isinstance(
-        intervention["activityType"], dict
-    ):
-      act_caption = intervention["activityType"].get("caption")
-      if isinstance(act_caption, dict):
-        activity_name = act_caption.get("fr", "")
+    prefix = "Cours"
+    act_lower = activity_caption.lower()
+    if "td" in act_lower or "travaux dirigés" in act_lower:
+      prefix = "TD"
+    elif "tp" in act_lower or "travaux pratiques" in act_lower:
+      prefix = "TP"
+    elif "app" in act_lower:
+      prefix = "APP"
+    elif "cours" in act_lower or "cm" in act_lower or "magistral" in act_lower:
+      prefix = "Cours"
+    elif "tg" in act_lower or "grand" in act_lower:
+      prefix = "TG"
+    elif intervention.get("isExam"):
+      prefix = "EXAM"
 
-    # Extraction du nom du cours (unité pédagogique)
+    # Nom du cours
     course_name = ""
     ped_units = intervention.get("interventionPedagogicalUnits", [])
-    if (
-        ped_units
-        and isinstance(ped_units[0], dict)
-        and "pedagogicalUnit" in ped_units[0]
-    ):
-      pu_caption = ped_units[0]["pedagogicalUnit"].get("caption", {})
-      if isinstance(pu_caption, dict):
-        course_name = pu_caption.get("fr", "")
+    if ped_units and "pedagogicalUnit" in ped_units[0]:
+      course_name = (
+          ped_units[0]["pedagogicalUnit"].get("caption", {}).get("fr", "")
+      )
 
-    # Construction du résumé (titre de l'événement)
-    summary = (
-        course_name
-        if course_name
-        else (field_name if field_name else "Cours ESME")
-    )
-    if activity_name:
-      summary = f"{summary} ({activity_name})"
+    if not course_name:
+      if "field" in intervention and "caption" in intervention["field"]:
+        course_name = intervention["field"]["caption"].get("fr", "")
+      else:
+        course_name = "Cours"
 
-    # Extraction des intervenants
-    instructors = []
-    for inst in intervention.get("interventionInstructors", []):
-      if isinstance(inst, dict):
-        person = inst.get("person", {})
-        fname = person.get("currentFirstName", "")
-        lname = person.get("currentLastName", "")
-        if fname or lname:
-          instructors.append(f"{fname} {lname}".strip())
-    instructor_str = ", ".join(instructors)
+    # Groupes / Populations (nettoyage des parenthèses type "(Paris S03 26-27)")
+    clean_populations = []
+    for pop in intervention.get("interventionPopulations", []):
+      p_cap = pop.get("population", {}).get("caption", {}).get("fr", "")
+      if p_cap:
+        clean_p = re.sub(r"\s*\(.*?\)", "", p_cap).strip()
+        clean_populations.append(clean_p)
 
-    # Extraction des salles de cours
+    group_str = " - ".join(clean_populations) if clean_populations else "SUP"
+
+    # SUMMARY sans les parenthèses
+    summary = f"{prefix} - {group_str} - {course_name}"
+
+    # Salles / Ressources
     rooms = []
     for res in intervention.get("interventionResources", []):
-      if isinstance(res, dict):
-        r = res.get("resource", {})
-        if r.get("isRoom"):
-          cap_dict = r.get("caption", {})
-          cap = cap_dict.get("fr") if isinstance(cap_dict, dict) else None
-          if not cap:
-            cap = r.get("code", "")
-          if cap:
-            rooms.append(cap)
-    location = ", ".join(rooms)
+      r = res.get("resource", {})
+      if r.get("isRoom"):
+        cap = r.get("caption", {}).get("fr") or r.get("code", "")
+        if cap:
+          rooms.append(cap)
 
-    # Construction de la description
-    desc_parts = []
-    if field_name:
-      desc_parts.append(f"Matière : {field_name}")
-    if instructor_str:
-      desc_parts.append(f"Intervenant(e) : {instructor_str}")
-    if activity_name:
-      desc_parts.append(f"Type : {activity_name}")
-    description = "\\n".join(desc_parts)
+    if rooms:
+      if len(rooms) == 1:
+        location = rooms[0]
+      else:
+        location = "\\; \n".join(rooms)
+    else:
+      location = "A Distance"
 
-    # Ajout des lignes de l'événement au calendrier
+    # Formateurs
+    instructors = []
+    for inst in intervention.get("interventionInstructors", []):
+      person = inst.get("person", {})
+      fname = person.get("currentFirstName", "")
+      lname = person.get("currentLastName", "")
+      if fname or lname:
+        instructors.append(f"{fname} {lname}".strip())
+
+    # DESCRIPTION structurée avec groupes nettoyés
+    desc_lines = ["Ressources : "]
+    if rooms:
+      for r in rooms:
+        desc_lines.append(f" - {r}")
+    else:
+      desc_lines.append(" - A Distance")
+
+    desc_lines.append("")
+    desc_lines.append("Formateurs : ")
+    if instructors:
+      for inst in instructors:
+        desc_lines.append(f" - {inst}")
+    else:
+      desc_lines.append(" - Non spécifié")
+
+    desc_lines.append("")
+    desc_lines.append("Groupes : ")
+    if clean_populations:
+      for cp in clean_populations:
+        desc_lines.append(f" - {cp}")
+    else:
+      desc_lines.append(" - SUP")
+
+    description = "\\n".join(desc_lines)
+
     ics_lines.extend([
         "BEGIN:VEVENT",
-        f"UID:{uid}",
-        f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
-        f"DTSTART:{dtstart}",
+        "CLASS:PUBLIC",
+        f"DESCRIPTION:{description}",
         f"DTEND:{dtend}",
+        f"DTSTAMP:{dtstamp}",
+        f"DTSTART:{dtstart}",
+        f"LOCATION:{location}",
+        "SEQUENCE:1",
+        "STATUS:Confirmed",
         f"SUMMARY:{summary}",
-        f"LOCATION:{location}" if location else "",
-        f"DESCRIPTION:{description}" if description else "",
+        "TRANSP:Opaque",
+        f"UID:{uid}",
         "END:VEVENT",
     ])
-    count += 1
 
   ics_lines.append("END:VCALENDAR")
 
-  # Écriture du fichier ICS final
-  ics_content = "\r\n".join([line for line in ics_lines if line])
-  with open(output_ics_path, "wb") as f:
-    f.write(ics_content.encode("utf-8"))
+  ics_content = "\r\n".join(ics_lines)
+  with open(ics_filepath, "w", encoding="utf-8") as f:
+    f.write(ics_content)
 
-  print(f"✅ Export réussi : {count} événements exportés vers '{output_ics_path}'")
-  return count > 0
+  print(
+      f"Export nettoyé réussi : {len(interventions)} événements exportés vers"
+      f" {ics_filepath}."
+  )
+  return len(interventions) > 0
 
 
 async def main():
@@ -184,8 +213,8 @@ async def main():
     planning_data = await api_response.json()
     await browser.close()
 
-    print("4. Conversion en ICS...")
-    if not convert_json_to_ics(planning_data, "emploi_du_temps.ics"):
+    print("4. Conversion en ICS avec le nouveau format...")
+    if not convert_json_to_exact_ics(planning_data, "emploi_du_temps.ics"):
       print("❌ Aucun cours n'a pu être converti.")
       sys.exit(1)
 
