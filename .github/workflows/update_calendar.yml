@@ -3,7 +3,7 @@ name: Mettre à jour l'emploi du temps
 on:
   workflow_dispatch: # Permet le lancement manuel depuis le téléphone ou le PC
   schedule:
-    - cron: '0 4 * * *' # Mise à jour automatique tous les jours à 4h du matin
+    - cron: '0 15 * * *' # Mise à jour automatique tous les jours à 17h
 
 jobs:
   update-calendar:
