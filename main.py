@@ -85,20 +85,17 @@ def convert_json_to_exact_ics(json_data, ics_filepath="emploi_du_temps.ics"):
 
     # Salles / Ressources
     rooms = []
-    for res in intervention.get("interventionResources", []):
-      r = res.get("resource", {})
-      if r.get("isRoom"):
-        cap = r.get("caption", {}).get("fr") or r.get("code", "")
-        if cap:
-          rooms.append(cap)
-
-    if rooms:
-      if len(rooms) == 1:
-        location = rooms[0]
-      else:
-        location = "\\; \n".join(rooms)
-    else:
-      location = "A Distance"
+        for res in intervention.get("interventionResources", []):
+            r = res.get("resource", {})
+            if r.get("isRoom"):
+                cap = r.get("caption", {}).get("fr") or r.get("code", "")
+                if cap:
+                    rooms.append(cap)
+                    
+        if rooms:
+            location = "/".join(rooms)
+        else:
+            location = "A Distance"
 
     # Formateurs
     instructors = []
